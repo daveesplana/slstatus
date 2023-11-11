@@ -67,7 +67,7 @@ static const struct arg args[] = {
 	/* function format          argument */
         { battery_state, " %s",      "BAT0" },
         { battery_perc, "[%s%%]",       "BAT0" },
-        { run_command, " [%s]", "/home/dave/.suckless/slstatus/volume.sh"},
+        { run_command, " [%s]", "/path/to/directory"},
         { ram_used, " [%s/", NULL},
         { ram_total, "%s]", NULL},
         { datetime, " [%s]", "%F %I:%M:%S %p"},
